@@ -22,15 +22,15 @@ describe(@"FISGenericTestSpec", ^{
     
     describe(@"our generic tests; let's make them pass! Ignore the back-slashes in the below code, those are there so i can still use obj-c syntax in an NSString", ^{
         describe(@"let's work with the beKindOf matcher!", ^{
-            it(@"is kind of class NSString",^{
+            it(@"create an NSString and test that it is kind of class NSString",^{
                 <#code#>
             });
             
-            it(@"is kind of class NSInteger",^{
+            it(@"create an NSInteger and test that it is kind of class NSInteger",^{
                 <#code#>
             });
             
-            it(@"is kind of class NSArray",^{
+            it(@"create an NSArray and test that it is kind of class NSArray",^{
                 <#code#>
             });
         });
