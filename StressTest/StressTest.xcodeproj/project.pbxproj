@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72AE7E70193F655C00A26365 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72AE7E6F193F655C00A26365 /* Foundation.framework */; };
+		72AE7E72193F655C00A26365 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72AE7E71193F655C00A26365 /* CoreGraphics.framework */; };
+		72AE7E74193F655C00A26365 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72AE7E73193F655C00A26365 /* UIKit.framework */; };
+		72AE7E7A193F655C00A26365 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 72AE7E78193F655C00A26365 /* InfoPlist.strings */; };
+		72AE7E7C193F655C00A26365 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AE7E7B193F655C00A26365 /* main.m */; };
+		72AE7E80193F655C00A26365 /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AE7E7F193F655C00A26365 /* FISAppDelegate.m */; };
+		72AE7E82193F655C00A26365 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72AE7E81193F655C00A26365 /* Images.xcassets */; };
+		72AE7E89193F655C00A26365 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72AE7E88193F655C00A26365 /* XCTest.framework */; };
+		72AE7E8A193F655C00A26365 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72AE7E6F193F655C00A26365 /* Foundation.framework */; };
+		72AE7E8B193F655C00A26365 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72AE7E73193F655C00A26365 /* UIKit.framework */; };
+		72AE7E93193F655C00A26365 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 72AE7E91193F655C00A26365 /* InfoPlist.strings */; };
+		72AE7E9F193F65DE00A26365 /* FISGenericTestSpecSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AE7E9E193F65DE00A26365 /* FISGenericTestSpecSpec.m */; };
+		FEE4B76E7107426D87008FD1 /* libPods-StressTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92E5DFB97C714CF8ABF11F58 /* libPods-StressTestTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72AE7E8C193F655C00A26365 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72AE7E64193F655C00A26365 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72AE7E6B193F655C00A26365;
+			remoteInfo = StressTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6FB4A92A1FF145EFB74CC010 /* Pods-StressTestTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StressTestTests.xcconfig"; path = "Pods/Pods-StressTestTests.xcconfig"; sourceTree = "<group>"; };
+		72AE7E6C193F655C00A26365 /* StressTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StressTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72AE7E6F193F655C00A26365 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		72AE7E71193F655C00A26365 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		72AE7E73193F655C00A26365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		72AE7E77193F655C00A26365 /* StressTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StressTest-Info.plist"; sourceTree = "<group>"; };
+		72AE7E79193F655C00A26365 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		72AE7E7B193F655C00A26365 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		72AE7E7D193F655C00A26365 /* StressTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StressTest-Prefix.pch"; sourceTree = "<group>"; };
+		72AE7E7E193F655C00A26365 /* FISAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FISAppDelegate.h; sourceTree = "<group>"; };
+		72AE7E7F193F655C00A26365 /* FISAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FISAppDelegate.m; sourceTree = "<group>"; };
+		72AE7E81193F655C00A26365 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		72AE7E87193F655C00A26365 /* StressTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StressTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72AE7E88193F655C00A26365 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		72AE7E90193F655C00A26365 /* StressTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StressTestTests-Info.plist"; sourceTree = "<group>"; };
+		72AE7E92193F655C00A26365 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		72AE7E9E193F65DE00A26365 /* FISGenericTestSpecSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISGenericTestSpecSpec.m; sourceTree = "<group>"; };
+		92E5DFB97C714CF8ABF11F58 /* libPods-StressTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StressTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72AE7E69193F655C00A26365 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72AE7E72193F655C00A26365 /* CoreGraphics.framework in Frameworks */,
+				72AE7E74193F655C00A26365 /* UIKit.framework in Frameworks */,
+				72AE7E70193F655C00A26365 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72AE7E84193F655C00A26365 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72AE7E89193F655C00A26365 /* XCTest.framework in Frameworks */,
+				72AE7E8B193F655C00A26365 /* UIKit.framework in Frameworks */,
+				72AE7E8A193F655C00A26365 /* Foundation.framework in Frameworks */,
+				FEE4B76E7107426D87008FD1 /* libPods-StressTestTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72AE7E63193F655C00A26365 = {
+			isa = PBXGroup;
+			children = (
+				72AE7E75193F655C00A26365 /* StressTest */,
+				72AE7E8E193F655C00A26365 /* StressTestTests */,
+				72AE7E6E193F655C00A26365 /* Frameworks */,
+				72AE7E6D193F655C00A26365 /* Products */,
+				6FB4A92A1FF145EFB74CC010 /* Pods-StressTestTests.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		72AE7E6D193F655C00A26365 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72AE7E6C193F655C00A26365 /* StressTest.app */,
+				72AE7E87193F655C00A26365 /* StressTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72AE7E6E193F655C00A26365 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72AE7E6F193F655C00A26365 /* Foundation.framework */,
+				72AE7E71193F655C00A26365 /* CoreGraphics.framework */,
+				72AE7E73193F655C00A26365 /* UIKit.framework */,
+				72AE7E88193F655C00A26365 /* XCTest.framework */,
+				92E5DFB97C714CF8ABF11F58 /* libPods-StressTestTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72AE7E75193F655C00A26365 /* StressTest */ = {
+			isa = PBXGroup;
+			children = (
+				72AE7E7E193F655C00A26365 /* FISAppDelegate.h */,
+				72AE7E7F193F655C00A26365 /* FISAppDelegate.m */,
+				72AE7E81193F655C00A26365 /* Images.xcassets */,
+				72AE7E76193F655C00A26365 /* Supporting Files */,
+			);
+			path = StressTest;
+			sourceTree = "<group>";
+		};
+		72AE7E76193F655C00A26365 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72AE7E77193F655C00A26365 /* StressTest-Info.plist */,
+				72AE7E78193F655C00A26365 /* InfoPlist.strings */,
+				72AE7E7B193F655C00A26365 /* main.m */,
+				72AE7E7D193F655C00A26365 /* StressTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		72AE7E8E193F655C00A26365 /* StressTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				72AE7E9E193F65DE00A26365 /* FISGenericTestSpecSpec.m */,
+				72AE7E8F193F655C00A26365 /* Supporting Files */,
+			);
+			path = StressTestTests;
+			sourceTree = "<group>";
+		};
+		72AE7E8F193F655C00A26365 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72AE7E90193F655C00A26365 /* StressTestTests-Info.plist */,
+				72AE7E91193F655C00A26365 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72AE7E6B193F655C00A26365 /* StressTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72AE7E98193F655C00A26365 /* Build configuration list for PBXNativeTarget "StressTest" */;
+			buildPhases = (
+				72AE7E68193F655C00A26365 /* Sources */,
+				72AE7E69193F655C00A26365 /* Frameworks */,
+				72AE7E6A193F655C00A26365 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StressTest;
+			productName = StressTest;
+			productReference = 72AE7E6C193F655C00A26365 /* StressTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		72AE7E86193F655C00A26365 /* StressTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72AE7E9B193F655C00A26365 /* Build configuration list for PBXNativeTarget "StressTestTests" */;
+			buildPhases = (
+				8C44EC8DCF84469CA0528EF3 /* Check Pods Manifest.lock */,
+				72AE7E83193F655C00A26365 /* Sources */,
+				72AE7E84193F655C00A26365 /* Frameworks */,
+				72AE7E85193F655C00A26365 /* Resources */,
+				96C887C3CEBC4EC38464DA25 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72AE7E8D193F655C00A26365 /* PBXTargetDependency */,
+			);
+			name = StressTestTests;
+			productName = StressTestTests;
+			productReference = 72AE7E87193F655C00A26365 /* StressTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72AE7E64193F655C00A26365 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FIS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = FIS;
+				TargetAttributes = {
+					72AE7E86193F655C00A26365 = {
+						TestTargetID = 72AE7E6B193F655C00A26365;
+					};
+				};
+			};
+			buildConfigurationList = 72AE7E67193F655C00A26365 /* Build configuration list for PBXProject "StressTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 72AE7E63193F655C00A26365;
+			productRefGroup = 72AE7E6D193F655C00A26365 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72AE7E6B193F655C00A26365 /* StressTest */,
+				72AE7E86193F655C00A26365 /* StressTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72AE7E6A193F655C00A26365 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72AE7E7A193F655C00A26365 /* InfoPlist.strings in Resources */,
+				72AE7E82193F655C00A26365 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72AE7E85193F655C00A26365 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72AE7E93193F655C00A26365 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8C44EC8DCF84469CA0528EF3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		96C887C3CEBC4EC38464DA25 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-StressTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72AE7E68193F655C00A26365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72AE7E7C193F655C00A26365 /* main.m in Sources */,
+				72AE7E80193F655C00A26365 /* FISAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72AE7E83193F655C00A26365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72AE7E9F193F65DE00A26365 /* FISGenericTestSpecSpec.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72AE7E8D193F655C00A26365 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72AE7E6B193F655C00A26365 /* StressTest */;
+			targetProxy = 72AE7E8C193F655C00A26365 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		72AE7E78193F655C00A26365 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72AE7E79193F655C00A26365 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		72AE7E91193F655C00A26365 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72AE7E92193F655C00A26365 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72AE7E96193F655C00A26365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		72AE7E97193F655C00A26365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72AE7E99193F655C00A26365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StressTest/StressTest-Prefix.pch";
+				INFOPLIST_FILE = "StressTest/StressTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		72AE7E9A193F655C00A26365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StressTest/StressTest-Prefix.pch";
+				INFOPLIST_FILE = "StressTest/StressTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		72AE7E9C193F655C00A26365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FB4A92A1FF145EFB74CC010 /* Pods-StressTestTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StressTest.app/StressTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StressTest/StressTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "StressTestTests/StressTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		72AE7E9D193F655C00A26365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FB4A92A1FF145EFB74CC010 /* Pods-StressTestTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StressTest.app/StressTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StressTest/StressTest-Prefix.pch";
+				INFOPLIST_FILE = "StressTestTests/StressTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72AE7E67193F655C00A26365 /* Build configuration list for PBXProject "StressTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72AE7E96193F655C00A26365 /* Debug */,
+				72AE7E97193F655C00A26365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72AE7E98193F655C00A26365 /* Build configuration list for PBXNativeTarget "StressTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72AE7E99193F655C00A26365 /* Debug */,
+				72AE7E9A193F655C00A26365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72AE7E9B193F655C00A26365 /* Build configuration list for PBXNativeTarget "StressTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72AE7E9C193F655C00A26365 /* Debug */,
+				72AE7E9D193F655C00A26365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72AE7E64193F655C00A26365 /* Project object */;
+}
