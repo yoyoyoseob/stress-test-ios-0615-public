@@ -26,10 +26,6 @@ describe(@"FISGenericTestSpec", ^{
                 <#code#>
             });
             
-            it(@"create an NSInteger and test that it is kind of class NSInteger",^{
-                <#code#>
-            });
-            
             it(@"create an NSArray and test that it is kind of class NSArray",^{
                 <#code#>
             });
