@@ -36,7 +36,7 @@ describe(@"FISGenericTestSpec", ^{
                 // write test here
             });
             
-            it(@"create an NSArray variable named 'healthyFood', set it equal to an array with the NSStrings 'poptarts' and 'hot pockets'. use a test to verify that your variable is equal to @[@\"poptarts\", @\"hotpockets\"]",^{
+            it(@"create an NSArray variable named 'healthyFood', set it equal to an array with the NSStrings 'poptarts' and 'hot pockets'. use a test to verify that your variable is equal to @[@\"poptarts\", @\"hot pockets\"]",^{
                 // write test here
             });
         });
@@ -54,7 +54,7 @@ describe(@"FISGenericTestSpec", ^{
                 // write test here
             });
             
-            it(@"create an NSArray variable called 'healthyFood', set it equal to an array with the NSStrings 'poptarts' and 'hot pockets'. use a test to verify that your variable is not equal to @[@\"hotpockets\", @\"poptarts\"]",^{
+            it(@"create an NSArray variable called 'healthyFood', set it equal to an array with the NSStrings 'poptarts' and 'hot pockets'. use a test to verify that your variable is not equal to @[@\"hot pockets\", @\"poptarts\"]",^{
                 // write test here
             });
         });
