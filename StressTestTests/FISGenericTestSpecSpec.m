@@ -32,17 +32,17 @@ describe(@"FISGenericTestSpec", ^{
                 // write test here
             });
             
-            it(@"create an NSString variable called 'name' with the value Chris. test that your variable is equal to @\"Chris\"",^{
+            it(@"create an NSString variable called 'name' with the value 'Chris'. test that your variable is equal to 'Chris'",^{
                 // write test here
             });
             
-            it(@"create an NSArray variable named 'healthyFood', set it equal to an array with the NSStrings 'poptarts' and 'hot pockets'. use a test to verify that your variable is equal to @[@\"poptarts\", @\"hot pockets\"]",^{
+            it(@"create an NSArray variable named 'healthyFood', set it equal to an array with the NSStrings 'poptarts' and 'hot pockets'. use a test to verify that your variable is equal to ['poptarts', 'hot pockets']",^{
                 // write test here
             });
         });
         
         describe(@"let's work with the notEqual matcher!", ^{
-            it(@"create an NSString variable called 'name' with the value Chris. test that your variable is not equal to the NSString @\"Joe\"",^{
+            it(@"create an NSString variable called 'name' with the value 'Chris'. test that your variable is not equal to the NSString 'Joe'",^{
                 // write test here
             });
             
@@ -50,11 +50,11 @@ describe(@"FISGenericTestSpec", ^{
                 // write test here
             });
             
-            it(@"create an NSArray variable called 'healthyFood', set it equal to an array with the NSStrings 'poptarts' and 'hot pockets'. use a test to verify that your variable is not equal to @[@\"celery\", @\"spinach\"]",^{
+            it(@"create an NSArray variable called 'healthyFood', set it equal to an array with the NSStrings 'poptarts' and 'hot pockets'. use a test to verify that your variable is not equal to ['celery', 'spinach']",^{
                 // write test here
             });
             
-            it(@"create an NSArray variable called 'healthyFood', set it equal to an array with the NSStrings 'poptarts' and 'hot pockets'. use a test to verify that your variable is not equal to @[@\"hot pockets\", @\"poptarts\"]",^{
+            it(@"create an NSArray variable called 'healthyFood', set it equal to an array with the NSStrings 'poptarts' and 'hot pockets'. use a test to verify that your variable is not equal to ['hot pockets', 'poptarts']",^{
                 // write test here
             });
         });
@@ -64,14 +64,14 @@ describe(@"FISGenericTestSpec", ^{
                 // write test here
             });
             
-            it(@"create an NSString variable called 'name' with the value Chris. test that your variable is equal to @\"Chris\"",^{
+            it(@"create an NSString variable called 'name' with the value 'Chris'. test that your variable is equal to 'Chris'",^{
                 // write test here
             });
             
         });
         
         describe(@"let's work with the beFalsy matcher! make tests below using beFalsy instead of the notEqual matcher", ^{
-            it(@"create an NSString variable called 'name' with the value Chris. test that your variable is not equal to the NSString @\"Joe\"",^{
+            it(@"create an NSString variable called 'name' with the value 'Chris'. test that your variable is not equal to the NSString 'Joe'",^{
                 // write test here
             });
             
@@ -82,11 +82,11 @@ describe(@"FISGenericTestSpec", ^{
         });
         
         describe(@"let's finish with some collection-specific matchers, beginsWith and endsWith", ^{
-            it(@"re-create your 'healthFood' array from earlier in the exercise. test that 'healthFood' begins with @\"poptarts\"",^{
+            it(@"re-create your 'healthFood' array from earlier in the exercise. test that 'healthFood' begins with 'poptarts'",^{
                 // write test here
             });
             
-            it(@"re-create your 'healthFood' array from earlier in the exercise. test that 'healthFood' ends with with @\"hot pockets\"",^{
+            it(@"re-create your 'healthFood' array from earlier in the exercise. test that 'healthFood' ends with with 'hot pockets'",^{
                 // write test here
             });
             
