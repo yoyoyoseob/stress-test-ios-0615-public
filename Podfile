@@ -5,7 +5,7 @@ target "StressTest" do
 end
 
 target "StressTestTests" do
-  pod 'Specta',      '~> 0.2.1'                                                 
+  pod 'Specta',     :git=>'git@github.com:specta/specta.git', :branch=>'0.3-wip' 
 
   pod 'Expecta',     '~> 0.2.4'                                                 
 
